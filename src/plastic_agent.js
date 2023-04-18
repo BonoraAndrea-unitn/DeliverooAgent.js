@@ -18,7 +18,7 @@ const KNOWN_PARCELS = [
 var init_completed = 0
 var temporary_blocked_cells = []
 var x = -1, y = -1
-var other_agent = { x: -1, y: -1 }
+var other_agents = { x: -1, y: -1 }
 var exploration_cell = null
 const db_to_collect = new Map()
 const db_other_agent = new Map()
